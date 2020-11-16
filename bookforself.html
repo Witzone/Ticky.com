@@ -3,161 +3,123 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Ticky</title>
-
-    <!-- Font Icon -->
-    <link
-      rel="stylesheet"
-      href="fonts/material-icon/css/material-design-iconic-font.min.css"
-    />
-
-    <!-- Main css -->
     <link rel="stylesheet" href="./bookforself.css" />
+    <link rel="stylesheet" href="./css/all.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/fontawesome.css" />
+    <link rel="stylesheet" href="./css/fontawesome.min.css" />
   </head>
   <body>
-    <div class="main">
-      <div class="container">
-        <div class="booking-content">
-          <!-- <div class="booking-image">
-             <img
-              class="booking-img"
-              src="images/form-img.jpg"
-              alt="Booking Image"
-            /> 
-          </div> -->
-          <div class="booking-form">
-            <form id="booking-form">
-              <h2>Book for Self</h2>
-              <div class="form-group form-input">
-                <input type="text" name="name" id="name" value="" required />
-                <label for="name" class="form-label">Your Name</label>
-              </div>
-              <div class="form-group form-input">
-                <input
-                  type="number"
-                  name="phone"
-                  id="phone"
-                  value=""
-                  required
-                />
-                <label for="phone" class="form-label"> Phone Number</label>
-              </div>
-              <div class="form-group">
-                <div class="select-list">
-                  <select name="time" id="time" required>
-                    <option value="">Time</option>
-                    <option value="4am">4:00 am</option>
-                    <option value="6am">6:00 am</option>
-                    <option value="9am">9:00 am</option>
-                    <option value="12pm">12:00 pm</option>
-                  </select>
-                </div>
-              </div>
-              <div class="form-group">
-                <div class="select-list">
-                  <select name="destination" id="food" required>
-                    <option value="">Destionation</option>
-                    <option value="accra">Accra</option>
-                    <option value="kumasi">Kumasi</option>
-                    <option value="ho">Ho</option>
-                  </select>
-                </div>
-              </div>
-              <!-- <div class="form-group">
-                <div class="select-list">
-                  <select name="location" id="food" required>
-                    <option value="">Location</option>
-                    <option value="accra">Accra</option>
-                    <option value="kumasi">Kumasi</option>
-                    <option value="ho">Ho</option>
-                  </select>
-                </div>
-              </div> -->
-
-              <div class="form-group">
-                <div class="select-list">
-                  <select name="location" id="food" required>
-                    <option value="">Location</option>
-                    <option value="accra">Accra</option>
-                    <option value="kumasi">Kumasi</option>
-                    <option value="ho">Ho</option>
-                  </select>
-                </div>
-              </div>
-
-              <div class="form-radio">
-                <label class="label-radio"> Number Of Persons</label>
-                <div class="radio-item-list">
-                  <span class="radio-item">
-                    <input
-                      type="radio"
-                      name="number_people"
-                      value="2"
-                      id="number_people_2"
-                    />
-                    <label for="number_people_2">1</label>
-                  </span>
-                  <span class="radio-item active">
-                    <input
-                      type="radio"
-                      name="number_people"
-                      value="4"
-                      id="number_people_4"
-                      checked="checked"
-                    />
-                    <label for="number_people_4">4</label>
-                  </span>
-                  <span class="radio-item">
-                    <input
-                      type="radio"
-                      name="number_people"
-                      value="6"
-                      id="number_people_6"
-                    />
-                    <label for="number_people_6">6</label>
-                  </span>
-                  <span class="radio-item">
-                    <input
-                      type="radio"
-                      name="number_people"
-                      value="8"
-                      id="number_people_8"
-                    />
-                    <label for="number_people_8">8</label>
-                  </span>
-                  <span class="radio-item">
-                    <input
-                      type="radio"
-                      name="number_people"
-                      value="10"
-                      id="number_people_10"
-                    />
-                    <label for="number_people_10">10</label>
-                  </span>
-                </div>
-              </div>
-
-              <div class="form-submit">
-                <input
-                  type="submit"
-                  value="Book now"
-                  class="submit"
-                  id="submit"
-                  name="submit"
-                />
-                <a href="#" class="vertify-booking"
-                  >Verify your booking info from your phone</a
-                >
-              </div>
-            </form>
-          </div>
-        </div>
+    <nav class="nav-bar">
+      <div class="nav-logo">
+        <img src="./Images/ticky2-Recovered.png" class="logo" />
       </div>
-    </div>
 
-    <!-- JS -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="js/main.js"></script>
+      <ul class="nav-links">
+        <li>
+          <a href="./home.html">Home</a>
+        </li>
+        <li>
+          <a href="./about.html">About</a>
+        </li>
+
+        <!-- <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">Account</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="./home.html">Home</a>
+            <a href="./about.html">About</a>
+          </div>
+        </div> -->
+      </ul>
+
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+
+    <section class="sect">
+      <div class="paragraph">
+        <p class="P1">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+          repellendus, architecto, quisquam, quod tempore reprehenderit optio
+          adipisci expedita beatae natus id provident est! Facilis tenetur
+          accusantium tempore hic asperiores veritatis.
+        </p>
+      </div>
+
+      <div class="book-section">
+        <h3 class="P2">Book For Self</h3>
+        <hr />
+        <br />
+
+        <form class="form" action="./payment.html" method="GET">
+          <div class="div-paragraph">
+            <label for="destination">Search Destination:</label>
+
+            <select name="destination" id="destination" required>
+              <option value="none">none</option>
+              <option value="accra">Accra</option>
+              <option value="kumasi">Kumasi</option>
+              <option 2q32qw2="ho">Ho</option>
+            </select>
+
+            <br />
+            <br />
+
+            <label for="location">Your Location:</label>
+            <select name="location" id="location" required>
+              <option value="none">none</option>
+              <option value="accra">Accra</option>
+              <option value="kumasi">Kumasi</option>
+              <option value="ho">Ho</option>
+            </select>
+
+            <br />
+            <br />
+
+            <label for="time">Departure Time:</label>
+            <select name="time" id="time" required>
+              <option value="none"></option>
+              <option value="">4:00 am</option>
+              <option value="">6:00 am</option>
+              <option value="">9:00 am</option>
+              <option value="">12:00 am</option>
+            </select>
+            <div class="price">
+              <label for="" id="btn" class="labelShowPrice">Show Price</label>
+            </div>
+            <div id="display"></div>
+            <!-- <button id="btn">Show Price</button> -->
+
+            <div class="submit">
+              <input type="submit" value="Proceed" />
+            </div>
+
+            <!-- <div class="proceed-button">
+            <button class="pbtn" type="button"><a href="/payment.html" class="anc" ><strong>Proceed</strong></a></button>
+            </div> -->
+          </div>
+        </form>
+      </div>
+    </section>
+    <script src="./about.js"></script>
+    <script src="./bookforself.js"></script>
+    <script>
+      window.onclick = function (event) {
+        if (!event.target.matches(".dropbtn1")) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains("show")) {
+              openDropdown.classList.remove("show");
+            }
+          }
+        }
+      };
+    </script>
   </body>
 </html>
