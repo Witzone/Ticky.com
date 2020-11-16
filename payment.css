@@ -26,11 +26,7 @@ body {
   text-decoration: none;
   color: #9e530cb9;
 
-
-
-
-
-.nav-links a {
+  /* .nav-links a {
   right: 0%;
   text-decoration: none;
   /* padding-left: 2rem; */
@@ -38,8 +34,7 @@ body {
   /* margin-left: 2rem; */
   align-items: center;
 }
-
-.dropbtn {
+*/ .dropbtn {
   background-color: transparent;
   color: white;
   font-size: 1.5rem;
@@ -65,39 +60,11 @@ body {
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   font-size: 20px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
-.dropdown-content a {
-  color: white;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
 
-.dropdown a:hover {
-  background-color: #ddd;
-}
-
-.show {
-  display: block;
-}
-
-.column {
-  display: flex;
-}
-
-.par {
-  color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  width: 25rem;
-  margin-left: 5rem;
-}
-
-.payment {
-  background-color:#9e530cb9;
-  display: flex;
-}
 .nav-logo {
   margin-left: 2rem;
   width: 7rem;
@@ -146,7 +113,7 @@ body {
 }
 .link:hover {
   text-decoration: none;
-  color: #9e530cb9;;
+  color: #9e530cb9;
   color: white;
   width: 25rem;
   height: 20rem;
@@ -157,12 +124,13 @@ body {
   border: none;
 }
 
-.head-section {
-  margin-left: 5rem;
-  margin-top: 2rem;
+.payment {
+  background-color: #9e530cb9;
+  display: block;
+  width: 20rem;
 }
 
-.momo {
+/* .momo {
   margin-left: 2rem;
 }
 
@@ -188,7 +156,7 @@ body {
   margin-left: 8.5rem;
   font-family: "Times New Roman", Times, serif;
   font-size: 1rem;
-}
+} */
 
 .CP input:hover {
   cursor: pointer;
