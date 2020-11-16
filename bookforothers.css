@@ -1,0 +1,301 @@
+body {
+  background-image: url(./Images/phonepics.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+/* .nav-head {
+  width: 8rem;
+  height: 3rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+} */
+.nav-bar {
+  display: flex;
+  margin-left: 6rem;
+  color: white;
+  font-size: 2rem;
+}
+
+.logo {
+  width: 8rem;
+  height: 3rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.nav-links {
+  margin-left: 50rem;
+  font-size: 1.5rem;
+  color: white;
+  margin-top: 2rem;
+  list-style-type: none;
+  display: flex;
+  text-decoration: none;
+  padding-right: 2rem;
+}
+
+li:hover {
+  background-color: rgb(134, 65, 7);
+  background-position: center;
+}
+
+/* #links {
+  list-style-type: none;
+  display: flex;
+  text-decoration: none;
+  padding-right: 2rem;
+  color: white;
+} */
+
+li {
+  float: right;
+}
+
+a {
+  right: 0%;
+  text-decoration: none;
+  padding-left: 2rem;
+  color: white;
+}
+
+.paragraph {
+  color: white;
+  width: 20rem;
+  margin-left: 7rem;
+}
+
+.sect {
+  display: flex;
+}
+
+.book-section {
+  background-color: rgba(15, 64, 83, 0.774);
+  color: white;
+  margin-left: 25rem;
+  margin-top: 1rem;
+  width: 25rem;
+  height: 35rem;
+  border-radius: 15px;
+}
+.Placeholders {
+  margin-left: 1rem;
+}
+.place1 {
+  width: 15rem;
+  height: 2rem;
+  font-size: 20px;
+  border: none;
+  outline: none;
+}
+
+.place2 {
+  margin-top: 1rem;
+  width: 15rem;
+  height: 2rem;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+}
+
+.P2 {
+  padding: 10px;
+  padding-left: 120px;
+  font-size: 1.5rem;
+}
+
+.div-paragraph {
+  padding: 20px;
+  padding-left: 25px;
+}
+
+#destination {
+  width: 9rem;
+  height: 2rem;
+  border: none;
+  border-radius: 3px;
+}
+#location {
+  width: 9rem;
+  height: 2rem;
+  border: none;
+  border-radius: 3px;
+  margin-left: 28px;
+}
+#time {
+  width: 9rem;
+  height: 2rem;
+  border: none;
+  border-radius: 3px;
+  margin-left: 19px;
+}
+#destination,
+#location,
+#time:hover {
+  cursor: pointer;
+}
+.proceed-button {
+  margin-left: 80px;
+  margin-bottom: 0;
+  margin-top: 100px;
+}
+
+.pbtn {
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  width: 7rem;
+  height: 2rem;
+}
+.pbtn:hover {
+  background-color: greenyellow;
+  cursor: pointer;
+}
+
+.labelShowPrice {
+  border-style: solid;
+}
+
+.price {
+  margin-top: 2rem;
+  margin-left: 8rem;
+  /* width: 3rem; */
+  /* height: 2rem; */
+}
+
+.price label {
+  width: 2rem;
+  height: 3rem;
+}
+
+.submit input {
+  margin-top: 4rem;
+  margin-left: 7.5rem;
+  width: 7rem;
+  height: 3rem;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.submit input:hover {
+  cursor: pointer;
+  background-color: rgba(23, 235, 217, 0.658);
+  color: white;
+}
+
+/* MOBILE */
+@media screen and (max-width: 768px) {
+  html,
+  body {
+    background-size: 100% 100%;
+    background-size: cover;
+    overflow-x: hidden;
+  }
+
+  .nav-links {
+    display: block;
+    position: absolute;
+    right: 0;
+    background-color: rgb(80, 94, 141);
+    width: 30%;
+    margin-top: 0;
+    height: 60vh;
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+
+  .nav-links li {
+    opacity: 0;
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+
+  .burger {
+    display: block;
+    margin-left: 170px;
+  }
+
+  .line1,
+  .line2,
+  .line3 {
+    width: 25px;
+    height: 3px;
+    background-color: #ddd;
+    margin-top: 5px;
+  }
+
+  .logo {
+    padding: 0;
+    margin: 0;
+    margin-left: -80px;
+    width: 60px;
+  }
+
+  .nav-logo {
+    /* position: absolute; */
+    width: 50%;
+  }
+
+  .sect {
+    display: block;
+    width: 100%;
+    bottom: 100px;
+  }
+
+  .paragraph {
+    display: none;
+  }
+
+  .book-section {
+    width: 70%;
+    margin: 0;
+    margin-left: 65px;
+    margin-bottom: 80px;
+  }
+
+  .form {
+    /* width: 90%;
+    margin: 0 auto; */
+  }
+
+  .submit {
+    /* margin-left: 100px; */
+  }
+}
+
+.nav-active {
+  transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+/* this is the last code to add. After all is said and done */
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 3px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-7px, -7px);
+}
