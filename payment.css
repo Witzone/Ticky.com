@@ -1,0 +1,311 @@
+body {
+  background-image: url(./Images/pay.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+}
+.nav {
+  display: flex;
+}
+.nav-logo {
+  margin-left: 2rem;
+  width: 7rem;
+  height: 5rem;
+}
+.link {
+  color: white;
+  margin-left: 70rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  font-size: 1.7rem;
+}
+.link:hover {
+  text-decoration: none;
+  color: #9e530cb9;
+
+
+
+
+
+.nav-links a {
+  right: 0%;
+  text-decoration: none;
+  /* padding-left: 2rem; */
+  color: white;
+  /* margin-left: 2rem; */
+  align-items: center;
+}
+
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: "Times New Roman", Times, serif;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(38, 57, 58, 0.596);
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+.column {
+  display: flex;
+}
+
+.par {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 25rem;
+  margin-left: 5rem;
+}
+
+.payment {
+  background-color:#9e530cb9;
+  display: flex;
+}
+.nav-logo {
+  margin-left: 2rem;
+  width: 7rem;
+  height: 5rem;
+}
+.link {
+  color: white;
+  margin-left: 70rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  font-size: 1.7rem;
+}
+.link:hover {
+  text-decoration: none;
+  color: #9e530cb9;
+  display: flex;
+}
+.nav-logo {
+  margin-left: 2rem;
+  width: 7rem;
+  height: 5rem;
+}
+.link {
+  color: white;
+  margin-left: 70rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  font-size: 1.7rem;
+}
+.link:hover {
+  text-decoration: none;
+  color: #9e530cb9;
+  display: flex;
+}
+.nav-logo {
+  margin-left: 2rem;
+  width: 7rem;
+  height: 5rem;
+}
+.link {
+  color: white;
+  margin-left: 70rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  font-size: 1.7rem;
+}
+.link:hover {
+  text-decoration: none;
+  color: #9e530cb9;;
+  color: white;
+  width: 25rem;
+  height: 20rem;
+  border-radius: 10px;
+  margin-left: 20rem;
+  margin-top: 4rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: none;
+}
+
+.head-section {
+  margin-left: 5rem;
+  margin-top: 2rem;
+}
+
+.momo {
+  margin-left: 2rem;
+}
+
+.num {
+  margin-left: 5px;
+  width: 10rem;
+  height: 2rem;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.CP {
+  margin-top: 5rem;
+}
+
+.CP input {
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  height: 2rem;
+  margin-left: 8.5rem;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1rem;
+}
+
+.CP input:hover {
+  cursor: pointer;
+  background-color: rgba(63, 155, 63, 0.781);
+}
+
+/* MOBILE */
+@media screen and (max-width: 768px) {
+  html,
+  body {
+    background-size: 100% 100%;
+    background-size: cover;
+    /* overflow-x: hidden; */
+  }
+
+  /* .logo {
+    margin: 10px;
+    padding: 0;
+    margin-right: 20%;
+    padding-top: 10px;
+    margin-left: 20px;
+    padding-top: 10px;
+  } */
+
+  .nav-links {
+    display: block;
+    position: absolute;
+    right: 0;
+    background-color: rgb(80, 94, 141);
+    width: 10%;
+    margin-top: 0;
+    height: 40vh;
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+
+  .nav-links li {
+    opacity: 0;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .burger {
+    display: block;
+    margin-left: 170px;
+  }
+
+  .line1,
+  .line2,
+  .line3 {
+    width: 25px;
+    height: 3px;
+    background-color: #ddd;
+    margin-top: 5px;
+  }
+
+  .logo {
+    padding: 0;
+    margin: 0;
+    margin-left: -80px;
+    width: 60px;
+  }
+
+  .nav-logo {
+    width: 50%;
+  }
+
+  .par {
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    margin-left: 30px;
+
+    /* color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 25rem;
+    margin-left: 5rem; */
+  }
+
+  .payment {
+    width: 70%;
+    /* position: relative; */
+    margin: 0;
+    padding: 0;
+    margin-top: 150px;
+    margin-left: 80px;
+  }
+}
+
+.nav-active {
+  transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+/* this is the last code to add. After all is said and done */
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 3px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-7px, -7px);
+}

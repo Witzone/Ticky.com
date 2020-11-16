@@ -21,83 +21,73 @@
     <link rel="stylesheet" href="./signin.css" />
   </head>
   <body>
-    <div class="sign_in">
-      <div class="logos">
-        <img
-          src="./imag/bus-logo-abstract.png"
-          class="buslogo"
-          alt="bus-logo"
-        />
-        <img
-          src="./imag/ticky2-Recovered.png"
-          class="tickylogo"
-          alt="ticky-logo"
-        />
-      </div>
-      <div class="login-form">
-        <form action="/examples/actions/confirmation.php" method="post">
-          <h2 class="text-center">Sign in</h2>
-          <div class="form-group">
-            <div class="input-group">
-              <div class="input-group-prepend">
-                <span class="input-group-text">
-                  <span class="fa fa-user"></span>
-                </span>
-              </div>
-              <input
-                type="text"
-                class="form-control"
-                name="username"
-                placeholder="Username"
-                required="required"
-              />
+    <nav class="nav">
+        <img class="nav-logo" src="./imag/tickylogo.png" alt="ticky-logo" />
+        <a class="link" href="./index.html">Home</a>
+      </nav>
+    <div class="login-form">
+      <form action="/examples/actions/confirmation.php" method="post">
+        <h2 class="text-center">Sign in</h2>
+        <div class="form-group">
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">
+                <span class="fa fa-user"></span>
+              </span>
             </div>
+            <input
+              type="text"
+              class="form-control"
+              name="username"
+              placeholder="Username"
+              required="required"
+            />
           </div>
-          <div class="form-group">
-            <div class="input-group">
-              <div class="input-group-prepend">
-                <span class="input-group-text">
-                  <i class="fa fa-lock"></i>
-                </span>
-              </div>
-              <input
-                type="password"
-                class="form-control"
-                name="password"
-                placeholder="Password"
-                required="required"
-              />
+        </div>
+        <div class="form-group">
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">
+                <i class="fa fa-lock"></i>
+              </span>
             </div>
+            <input
+              type="password"
+              class="form-control"
+              name="password"
+              placeholder="Password"
+              required="required"
+            />
           </div>
-          <div class="form-group">
-            <button type="submit" class="btn btn-primary login-btn btn-block">
-              Sign in
-            </button>
-          </div>
-          <div class="clearfix">
-            <label class="float-left form-check-label"
-              ><input type="checkbox" /> Remember me</label
-            >
-            <a href="#" class="float-right">Forgot Password?</a>
-          </div>
-          <div class="or-seperator"><i>or</i></div>
-          <p class="text-center">Login with your social media account</p>
-          <div class="text-center social-btn">
-            <a href="#" class="btn btn-secondary"
-              ><i class="fa fa-facebook"></i>&nbsp; Facebook</a
-            >
-            <a href="#" class="btn btn-info"
-              ><i class="fa fa-twitter"></i>&nbsp; Twitter</a
-            >
-            <a href="#" class="btn btn-danger"
-              ><i class="fa fa-google"></i>&nbsp; Google</a
-            >
-          </div>
-        </form>
-        <p class="text-center text-muted small">
-          Don't have an account? <a href="./signup.html">Sign up here!</a>
-        </p>
-      </div>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-primary login-btn btn-block">
+            Sign in
+          </button>
+        </div>
+        <div class="clearfix">
+          <label class="float-left form-check-label"
+            ><input type="checkbox" /> Remember me</label
+          >
+          <a href="#" class="float-right">Forgot Password?</a>
+        </div>
+        <div class="or-seperator"><i>or</i></div>
+        <p class="text-center">Login with your social media account</p>
+        <div class="text-center social-btn">
+          <a href="#" class="btn btn-secondary"
+            ><i class="fa fa-facebook"></i>&nbsp; Facebook</a
+          >
+          <a href="#" class="btn btn-info"
+            ><i class="fa fa-twitter"></i>&nbsp; Twitter</a
+          >
+          <a href="#" class="btn btn-danger"
+            ><i class="fa fa-google"></i>&nbsp; Google</a
+          >
+        </div>
+      </form>
+      <p class="text-center text-muted small">
+        Don't have an account? <a href="./signup.html">Sign up here!</a>
+      </p>
     </div>
   </body>
 </html>

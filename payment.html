@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ticky || Payment</title>
+    <link rel="stylesheet" href="./payment.css" />
+  </head>
+  <body>
+    <!-- <nav class="nav-bar">
+      <div class="nav-logo">
+        <img src="./Images/ticky2-Recovered.png" class="logo" />
+      </div>
+
+      <ul class="nav-links">
+        <li>
+          <a href="./home.html">Home</a>
+        </li>
+        <li>
+          <a href="./about.html">About</a>
+        </li>
+      </ul>
+
+      <!-- This is div for Account -->
+      <!-- <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Account</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="">Home</a>
+          <a href="">Travel History</a>
+          <a href="">Logout</a>
+        </div>
+      </div> --> -->
+      <nav class="nav">
+        <img class="nav-logo" src="./imag/tickylogo.png" alt="ticky-logo" />
+        <a class="link" href="./index.html">Home</a>
+      </nav>
+
+      <!-- creating the humburger menu for responsiveness of the Web app -->
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+    <!-- <div class="column">
+      <div class="par">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+          aspernatur est dignissimos animi. Recusandae quas voluptatum, numquam
+          omnis harum vel odit nihil ea. Labore mollitia aut dicta, voluptatem
+          eligendi veniam.
+        </p>
+      </div> -->
+
+      <section class="payment">
+        <h3 class="head-section">Mobile Money Payment</h3>
+        <hr />
+        <br />
+        <br />
+        <div class="momo">
+          <label for="Mobile Money Number">Momo Number :</label>
+          <input
+            class="num"
+            placeholder="number"
+            type="number"
+            value=""
+            required
+          />
+        </div>
+
+        <div class="CP">
+          <input type="submit" value="Confirm Payment" />
+        </div>
+      </section>
+    </div>
+
+    <script>
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function (event) {
+        if (!event.target.matches(".dropbtn")) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains("show")) {
+              openDropdown.classList.remove("show");
+            }
+          }
+        }
+      };
+    </script>
+
+    <script src="./about.js"></script>
+  </body>
+</html>
