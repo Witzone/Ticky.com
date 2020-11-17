@@ -297,7 +297,9 @@ body {
   font-size: 14px;
   line-height: 1.8;
   /* color: rgb(241, 222, 222); */
-  background: rgb(189, 189, 189);
+  background-image: url(./Images/PnP.png);
+  background-attachment: fixed;
+  background-size: 100%;
   font-weight: 400;
   font-family: Poppins;
   margin: 0px;
@@ -311,16 +313,20 @@ body {
   width: 10rem;
   height: 7.5rem;
 }
-.nav-links li {
+.nav-links li a {
   display: flex;
-  color: #633402;
-  font-size: 14px;
+  color: #f0f0f0;
+  font-size: 18px;
   font-family: Poppins;
   font-weight: 400;
   margin-left: 70rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
   text-decoration: none;
   list-style-type: none;
+}
+
+.nav-links :hover {
+  color: #e79e50;
 }
 
 .booking-form {
@@ -331,6 +337,7 @@ body {
   height: 93vh;
   margin-left: 450px;
   margin-top: 25px;
+  opacity: 90%;
 }
 
 .active input + label {
