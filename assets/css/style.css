@@ -639,7 +639,7 @@ section {
 /* Featured Services Section
 --------------------------------*/
 #featured-services {
-  background: #000;
+  background: rgb(17, 16, 16);
 }
 
 #featured-services .box {
@@ -653,6 +653,10 @@ section {
     #242323 50%,
     #000000 100%
   );
+}
+
+#featured-services .box-sign {
+  background-image: linear-gradient(0deg, #1a1515 0%, #242323 50%, #4b4a4a 80%);
 }
 
 #featured-services i {
@@ -686,6 +690,10 @@ section {
 .title {
   align-items: center;
   justify-content: center;
+}
+.signin-up {
+  margin-left: 275px;
+  width: 100%;
 }
 
 /* About Us Section
@@ -972,6 +980,16 @@ section {
 #team .member .social i {
   font-size: 18px;
   margin: 0 2px;
+}
+
+.team-pic {
+  height: 280px;
+  width: 280px;
+}
+
+.team {
+  margin-left: 300px;
+  width: 100%;
 }
 
 /* Contact Section
