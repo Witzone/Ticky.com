@@ -21,7 +21,7 @@ body {
   margin-left: 70rem;
   margin-top: 1rem;
   text-decoration: none;
-  font-size: 1.7rem;
+  font-size: 1rem;
 }
 .link:hover {
   text-decoration: none;
@@ -98,4 +98,32 @@ body {
   position: relative;
   top: -11px;
   z-index: 1;
+}
+.btn-primary {
+  background-color: #633402;
+  border: none;
+}
+.btn-primary:hover {
+  cursor: pointer;
+  background-color: rgb(48, 21, 3);
+}
+.input-group-text {
+  color: #633402;
+}
+.float-right {
+  color: rgb(124, 53, 5);
+}
+.float-right:hover {
+  color: white;
+  text-decoration: none;
+}
+.signin-here {
+  color: #633402;
+}
+.signin-here:hover {
+  color: white;
+  text-decoration: none;
+}
+.text-muted {
+  color: #e0e4eb !important;
 }

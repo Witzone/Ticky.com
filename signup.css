@@ -24,6 +24,12 @@ body {
   margin-left: 70rem;
   margin-top: 1rem;
 }
+
+.link:hover {
+  cursor: pointer;
+  color: #9c5202;
+  text-decoration: none;
+}
 .form-control {
   height: 40px;
   box-shadow: none;
@@ -103,9 +109,25 @@ body {
   text-decoration: none;
 }
 .signup-form form a {
-  color: #5cb85c;
+  color: #9c5202;
   text-decoration: none;
 }
 .signup-form form a:hover {
   text-decoration: underline;
+}
+.btn-success {
+  background-color: #633402;
+  border: none;
+}
+.btn-success:hover {
+  cursor: pointer;
+  background-color: rgb(48, 21, 3);
+}
+.text-center-s {
+  color: #9c5202 !important;
+  text-decoration: none !important;
+}
+.text-center-s:hover {
+  cursor: pointer !important;
+  color: #633402 !important;
 }
