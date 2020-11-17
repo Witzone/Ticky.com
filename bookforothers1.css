@@ -331,13 +331,12 @@ body {
 
 .booking-form {
   padding: 0;
-  width: 33%;
+  width: 37%;
   background: #633402;
   border-radius: 10px;
-  height: 74vh;
+  height: 93vh;
   margin-left: 450px;
-  margin-top: 30px;
-  margin-bottom: 100px;
+  margin-top: 25px;
   opacity: 90%;
 }
 

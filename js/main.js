@@ -30,6 +30,20 @@
         $(this).closest("#food").children('li:not(.init)').toggle();
     });
     
+
+    // second destination
+    $('#food1').parent().append('<ul class="list-item" id="newfood1" name="food1"></ul>');
+    $('#food1 option').each(function(){
+        $('#newfood1').append('<li value="' + $(this).val() + '">'+$(this).text()+'</li>');
+    });
+    $('#food1').remove();
+    $('#newfood1').attr('id', 'food1');
+    $('#food1 li').first().addClass('init');
+    $("#food1").on("click", ".init", function() {
+        $(this).closest("#food1").children('li:not(.init)').toggle();
+    });
+
+
     var allOptions = $("#time").children('li:not(.init)');
     $("#time").on("click", "li:not(.init)", function() {
         allOptions.removeClass('selected');

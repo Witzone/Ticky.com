@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Ticky</title>
+    <title>TICKY || BOOK FOR OTHERS</title>
 
     <!-- Font Icon -->
     <link
@@ -12,10 +12,48 @@
       href="fonts/material-icon/css/material-design-iconic-font.min.css"
     />
 
+    
     <!-- Main css -->
-    <link rel="stylesheet" href="./book for Others/css/bookforothers.css" />
+    
+    <link rel="stylesheet" href="./bookforothers1.css" />
   </head>
   <body>
+
+    <div class="navbar">
+      <div>
+        <a href="./index.html"><img class="nav-logo" src="./imag/tickylogo.png" alt="ticky-logo" /></a> 
+      </div>
+
+      <nav class="nav">
+        <ul class="nav-links">
+          <li><a href="index.html">HOME</a></li>
+          <!-- <li class="drop-down"><a href="">Account</a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li><a href="#">Travel History</a></li>
+              <li><a href="#">Logout</a></li>
+            </ul>
+          </li> -->
+        </ul>
+
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+
+      </nav>
+
+    </div>
+
+
+    
+
+      <!-- creating the humburger menu for responsiveness of the Web app -->
+    
+
+
+
     <!-- <div class="main">
       <div class="container">
         <div class="booking-content">
@@ -28,7 +66,7 @@
           </div> -->
           <div class="booking-form">
             <form id="booking-form">
-              <h2>Book for Others</h2>
+              <h2>BOOK FOR OTHERS</h2>
               <div class="form-group form-input">
                 <input type="text" name="name" id="name" value="" required />
                 <label for="name" class="form-label">Person's Name</label>
@@ -58,9 +96,9 @@
               </div>
               <div class="form-group">
                 <div class="select-list">
-                  <select name="Laguage" id="laguage" required>
-                    <option value="">Laguage</option>
-                    <option value="none">No laguage</option>
+                  <select name="lagauge" id="lagauge" required>
+                    <option value="">Lagauge</option>
+                    <option value="none">No lagauge</option>
                     <option value="1kg">up to 1kg</option>
                     <option value="1.5kg">up to 1.5kg</option>
                   </select>
@@ -77,7 +115,7 @@
                   </div>
                   <div class="form-group">
                     <div class="select-list">
-                        <select name="Location" id="location" required>
+                        <select name="location" id="location" required>
                             <option value="">Location</option>
                             <option value="Ho">Ho</option>
                             <option value="Accra">Accra</option>
@@ -85,57 +123,19 @@
                         </select>
                     </div>
               </div>
-              <div class="form-radio">
-                <label class="label-radio"> Number Of Persons</label>
-                <div class="radio-item-list">
-                  <span class="radio-item">
-                    <input
-                        type="radio"
-                        name="number_people"
-                        value="2"
-                        id="number_people_2"
-                        />
-                    <label for="number_people_2">1</label>
-                  </span>
-                  <span class="radio-item active">
-                    <input
-                      type="radio"
-                      name="number_people"
-                      value="4"
-                      id="number_people_4"
-                      checked="checked"
-                    />
-                    <label for="number_people_4">2</label>
-                  </span>
-                  <span class="radio-item">
-                    <input
-                      type="radio"
-                      name="number_people"
-                      value="6"
-                      id="number_people_6"
-                    />
-                    <label for="number_people_6">3</label>
-                  </span>
-                  <span class="radio-item">
-                    <input
-                      type="radio"
-                      name="number_people"
-                      value="8"
-                      id="number_people_8"
-                    />
-                    <label for="number_people_8">4</label>
-                  </span>
-                  <span class="radio-item">
-                    <input
-                      type="radio"
-                      name="number_people"
-                      value="10"
-                      id="number_people_10"
-                    />
-                    <label for="number_people_10">5+</label>
-                  </span>
-                </div>
+              <div class="form-group">
+                    <div class="select-list">
+                        <select name="people" id="people" required>
+                            <option value="">Number of People</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
               </div>
+              
 
               <div class="form-submit">
                 <input
@@ -145,8 +145,8 @@
                   id="submit"
                   name="submit"
                 />
-                <a href="#" class="vertify-booking"
-                  >Verify your booking info from your phone</a
+                <a href="./bookforself1.html" class="vertify-booking"
+                  >Click to book for self</a
                 >
               </div>
             </form>
@@ -155,8 +155,11 @@
       </div>
     </div>
 
+
+    
     <!-- JS -->
+    
     <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="js/main.js"></script>
+    <!-- <script src="js/main.js"></script> -->
   </body>
 </html>
