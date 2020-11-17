@@ -341,9 +341,9 @@ body {
   opacity: 90%;
 }
 
-.active input + label {
-  /* margin-right: 59px; */
-}
+/* .active input + label {
+  /* margin-right: 59px;
+} */
 
 form {
   padding: 50px 70px 50px 70px;
