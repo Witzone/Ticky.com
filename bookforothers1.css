@@ -340,7 +340,7 @@ body {
   opacity: 90%;
 }
 
-.active input + label {
+ {
   /* margin-right: 59px; */
 }
 
@@ -423,7 +423,7 @@ select:focus {
   background: #e79e50;
 }
 
-.label-radio {
+.active input + label.label-radio {
   display: block;
   margin-bottom: 18px;
 }
