@@ -1,5 +1,5 @@
 body {
-  background-image: url(./Images/pay.png);
+  background-image: url(./Images/men.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
@@ -64,7 +64,6 @@ body {
     "Lucida Sans", Arial, sans-serif;
 }
 
-
 .nav-logo {
   margin-left: 2rem;
   width: 7rem;
@@ -128,10 +127,20 @@ body {
   background-color: #9e530cb9;
   display: block;
   width: 20rem;
+  height: 20rem;
+  margin-left: 40rem;
+  border-radius: 10px;
 }
 
-/* .momo {
+.momo {
   margin-left: 2rem;
+  color: white;
+}
+
+.head-section {
+  margin-left: 50px;
+  margin-top: 2rem;
+  color: white;
 }
 
 .num {
@@ -144,19 +153,19 @@ body {
   border-radius: 5px;
 }
 
-.CP {
+.confirm-payment {
   margin-top: 5rem;
 }
 
-.CP input {
+.confirm-payment input {
   border-radius: 5px;
   border: none;
   outline: none;
   height: 2rem;
-  margin-left: 8.5rem;
+  margin-left: 6rem;
   font-family: "Times New Roman", Times, serif;
   font-size: 1rem;
-} */
+}
 
 .CP input:hover {
   cursor: pointer;
