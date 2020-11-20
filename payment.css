@@ -29,12 +29,14 @@ body {
   /* .nav-links a {
   right: 0%;
   text-decoration: none;
-  /* padding-left: 2rem; */
+   padding-left: 2rem; 
   color: white;
-  /* margin-left: 2rem; */
+   margin-left: 2rem; 
   align-items: center;
+*/
 }
-*/ .dropbtn {
+
+.dropbtn {
   background-color: transparent;
   color: white;
   font-size: 1.5rem;
